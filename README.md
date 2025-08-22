@@ -22,3 +22,26 @@ Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
+# Team Roles
+Business Analyst (BA): Translates customer needs into clear requirements and workflows, ensuring alignment between stakeholders and the development team.
+
+Product Owner (PO): Defines the product vision, manages the backlog, and ensures the final product meets business and customer needs.
+
+Project Manager (PM): Oversees timelines, budgets, and team coordination, ensuring the project is delivered successfully.
+
+UI/UX Designer: Designs user interfaces and experiences, creating intuitive, attractive, and user-friendly product journeys.
+
+Software Architect: Defines the system’s high-level architecture, selects technologies, and ensures scalability, security, and code quality.
+
+Software Developer: Implements features by coding the front-end, back-end, or full stack, solving technical challenges along the way.
+
+Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
+
+Database Administrator: Manages database design, indexing, and optimizations.
+
+QA Engineer: Tests functionality, usability, performance, and security to ensure the product meets requirements and is defect-free.
+
+Test Automation Engineer: Develops and maintains automated test scripts to speed up testing and provide continuous quality feedback.
+
+DevOps Engineer: Builds CI/CD pipelines, manages deployments, and ensures smooth collaboration between development and operations.
+
