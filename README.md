@@ -115,3 +115,22 @@ Securing payments:
     Securing payment is crucial as it protect sensitive data like credit card details to prevent stealing of money and other
 System availability: M
     Measures such as system monitoring and rate limiting prevent attacks like denial-of-service and make users data available on-demand or upon used
+
+# CI/CD Pipeline
+
+CI/CD Pipelines
+CI/CD are best practices in modern software development that automate the integration of new or updated code (CI) and the process of delevering or deploying it (CD). WIth CI, every time you modified code an pushes it, it is automatically tested and built ensuring proper functionality. CD then takes this built version and prepares or deploys it to staging or production environments.
+
+It importance:
+    CI/CD Pipelines tested and validated code ensuring faster and more reliable updates a system/application
+    With this, developer productivity increases by catching bugs early. It automate repetitive steps while reducing human errors. Provides consistency so that the app runs the same way across all environments.
+
+Tools That Could Be Used:
+
+GitHub Actions – Automates testing, building, and deployment directly from GitHub.
+
+Docker – Creates portable, containerized versions of the app that run consistently everywhere.
+
+Jenkins – A widely used automation server for CI/CD pipelines.
+
+Travis CI / CircleCI – Cloud-based CI/CD tools for building and testing code automatically.
