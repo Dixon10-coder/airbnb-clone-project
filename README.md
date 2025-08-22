@@ -79,11 +79,11 @@ Payments:
     -amount
     -status
 # Relationships among Entities
-A user can own multiple properties
-A booking belongs to a property
-A user can make multiple bookings
-A review belongs to a property a user
-A payment belongs to a booking
+A user can own multiple properties.
+A booking belongs to a property.
+A user can make multiple bookings.
+A review belongs to a property a user.
+A payment belongs to a booking.
 
 # Feature Breakdown
 
@@ -99,3 +99,19 @@ Review System:
     Allow users to leave reviews and ratings for properties. This makes user feels prioritized and create room for imporvement and upgrading for future users.
 Data Optimization: 
     Ensure efficient data retrieval and storage through database optimizations. This ensures ease of accessing data and provide scalability upon system growth.
+
+# API Security
+Authentication:
+    This is where the user prove his/her identity through username, password and maybe 2FA (2 Factor Authentication). This ensures that only the legitimate user can access a count and denying attacker from access
+Authorization:
+    This ensures access control. A user should only have access to what he/she is authorized to. This determine what resources  a user can access and make changes to
+Rate limiting: 
+    This is where the number of requests a user or system can make is limited within a given period of time. This protect against brut-force attact (an attacker trying multiple times to guess a password) or denial-of-service attacks.
+Secure Payments
+    Implementing PCI-DSS–compliant payment gateways and tokenization for transactions. With this, financial data is handled securely, reducing fraud and increasing user trust.
+Protecting user data: 
+    Security is crucial in protecting user data because it brings about trustworthyness and reliabilty. It protect sensitive data of users such as password, email and booking history
+Securing payments:
+    Securing payment is crucial as it protect sensitive data like credit card details to prevent stealing of money and other
+System availability: M
+    Measures such as system monitoring and rate limiting prevent attacks like denial-of-service and make users data available on-demand or upon used
