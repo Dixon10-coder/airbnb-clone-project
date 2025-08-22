@@ -85,3 +85,17 @@ A user can make multiple bookings
 A review belongs to a property a user
 A payment belongs to a booking
 
+# Feature Breakdown
+
+User Management: 
+    Implement a secure system for user registration, authentication, and profile management. This ensure that users give seperate accounts and safely management their personal details.
+Property Management: 
+    Develop features for property listing creation, updates, and retrieval. This ensures that users can search for properties and view details such as availability, pricing, etc. about properties.
+Booking System: 
+    Create a booking mechanism for users to reserve properties and manage booking details. With this, users can be aware of available spaces while keeping record of reservation.
+Payment Processing: 
+    Integrate a payment system to handle transactions and record payment details. This feature ensures a seamless and secure transactions for reliability and transparency.
+Review System: 
+    Allow users to leave reviews and ratings for properties. This makes user feels prioritized and create room for imporvement and upgrading for future users.
+Data Optimization: 
+    Ensure efficient data retrieval and storage through database optimizations. This ensures ease of accessing data and provide scalability upon system growth.
