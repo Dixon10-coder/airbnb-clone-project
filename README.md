@@ -44,3 +44,44 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+# Database Design
+Users:
+    -id (primary key)
+    -name
+    -password
+    -email
+    -role (e.g., guest, host)
+Properties:
+    -id (primary key)
+    -user_id (foreign key)
+    -title
+    -description
+    -location
+    -price
+    -availability
+Bookings:
+    -id (primary key)
+    -user_id (foreign key)
+    -property_id (foreign key)
+    -start_day
+    -end_day
+Reviews:
+    -id (primary key)
+    -user_id (foreign key)
+    -property_id (foreign key)
+    -comment
+    -rating
+Payments:
+    -id (primary key)
+    -booking_id (foreign key)
+    -payment_method
+    -amount
+    -status
+# Relationships among Entities
+A user can own multiple properties
+A booking belongs to a property
+A user can make multiple bookings
+A review belongs to a property a user
+A payment belongs to a booking
+
